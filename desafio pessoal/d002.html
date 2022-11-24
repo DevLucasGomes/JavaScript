@@ -8,10 +8,10 @@
 </head>
 <body>
     <script>
-       var sal = prompt('Qual o seu salário')
-       if sal < 1.212
-        sal = sal - 7.5%
-        alert(sal)
+       var sal = Number(prompt('Qual o seu salário'))
+       var per = Number (prompt('Qual a porcentagem do seu INSS ?'))
+       var res = sal - per
+        alert(`Seu imposto de renda é: ${res}`)
     </script>
 </body>
 </html>
